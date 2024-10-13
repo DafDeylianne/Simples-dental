@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+:root {
+    --cor1: #44944C;
+    --fundo: #EEE7E7;
+    --letra: 'Jura';
+}
+
+html {
+    background: var(--fundo);
+    font-family: var(--letra);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7em;
+}
+
+.cabecalho-logo {
+    color: var(--cor1);
+    font-size: 1.3em;
+    margin-left: 1em;
+}
+
+.cabecalho-botao {
+    background: var(--cor1);
+    font-size: 1em;
+    font-family: var(--letra);
+    border: none;
+    border-radius: 5px;
+    padding: .8em;
+    color: var(--fundo);
+    cursor: pointer;
+    margin-right: 1em;
+    transition: 1s;
+}
+
+.cabecalho-botao:hover {
+    background: #70d87ad2;
+
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.sessao-login {
+    padding-left: 10em;
+}
+
+.senha {
+    margin-top: 1em;
+}
+
+.login-titulo {
+    font-size: 3em;
+    color: var(--cor1);
+}
+
+.login-usuario {
+    color: var(--cor1);
+    font-size: 1.3em;
+}
+
+.login-espaco {
+    width: 40em;
+    height: 1.5em;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--cor1);
+    margin-top: 1.5em;
+}
+
+.checkbox-login {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.checkbox-texto {
+    color: var(--cor1);
+    font-size: 1.1em;
+}
+
+.botao-entrar {
+    background: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    padding: .8em;
+    font-size: 1.2em;
+    width: 8em;
+    color: var(--fundo);
+    font-family: var(--letra);
+    cursor: pointer;
+    margin-bottom: .8em;
+    margin-top: 1em;
+    margin-left: 8em;
+}
+
+.texto-esqueci {
+    color: var(--cor1);
+    text-decoration: none;
+    margin-top: 2em;
+    margin: 0 auto;
+    margin-left: 10.5em;
+}
+
+.img {
+    height: 30em;
+}
